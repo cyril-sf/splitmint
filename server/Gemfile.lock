@@ -93,6 +93,8 @@ GEM
       faraday-net_http (~> 2.0)
       ruby2_keywords (>= 0.0.4)
     faraday-net_http (2.0.3)
+    figaro (1.2.0)
+      thor (>= 0.14.0, < 2)
     globalid (1.0.0)
       activesupport (>= 5.0)
     hashie (5.0.0)
@@ -250,6 +252,7 @@ DEPENDENCIES
   bootsnap
   capybara
   debug
+  figaro
   importmap-rails
   jbuilder
   omniauth-rails_csrf_protection
